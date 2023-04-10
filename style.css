@@ -21,6 +21,7 @@ table tr td{
     border-radius: 5px;
     text-align: center;
     line-height: 28px;
+    opacity: 1;
 }
 .hold{
     opacity: 0.5;
@@ -42,4 +43,16 @@ table tr td{
     cursor: pointer;
     transform: scale(1.1);
     transition: 300ms;
+}
+
+#flash{
+    text-align: center;
+    display: block;
+    opacity: 0.5;
+}
+.button{
+    display: flex;
+    width: 250px;
+    margin: auto;
+    justify-content: space-around;
 }
